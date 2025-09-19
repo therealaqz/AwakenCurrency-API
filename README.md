@@ -17,7 +17,7 @@ A secure and efficient Crystal currency system API for Minecraft servers.
 
 <dependencies>
     <dependency>
-        <groupId>com.github.YOUR-USERNAME</groupId>
+        <groupId>com.github.vouchme</groupId>
         <artifactId>awakencurrency-api</artifactId>
         <version>1.0.0</version>
         <scope>provided</scope>
@@ -32,7 +32,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.YOUR-USERNAME:awakencurrency-api:1.0.0'
+    compileOnly 'com.github.therealaqz:awakencurrency-api:1.0.0'
 }
 ```
 
@@ -110,9 +110,26 @@ softdepend: [AwakenCurrency]
 
 ## Support
 
-- Download AwakenCurrency: [Your distribution method]
-- Documentation: [Your docs link]
-- Support: [Your Discord/support method]
+- Download AwakenCurrency: [https://github.com/therealaqz/AwakenCurrency-API]
+- Documentation: [https://github.com/therealaqz/AwakenCurrency-API]
+- Support: [https://discord.awakenmc.com]
+  
+Copyright (c) 2025 Aqz
 
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software (the AwakenCurrency API) and associated documentation files,
+  to deal in the Software without restriction, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  
 ---
 *Developed by Aqz for the AwakenCurrency Network*
