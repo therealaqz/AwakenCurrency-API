@@ -6,8 +6,6 @@ import java.util.UUID;
 
 /**
  * Public API for AwakenCurrency - Crystal Management System
- * This is the ONLY interface that should be exposed to other plugins
- *
  * @author Aqz
  * @version 1.0
  */
