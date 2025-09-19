@@ -39,8 +39,8 @@ dependencies {
 ### Basic Usage
 
 ```java
-import me.vouchme.awakenCurrency.api.CurrencyAPIProvider;
-import me.vouchme.awakenCurrency.api.ICurrencyAPI;
+import me.vouchme.awakencurrencyApi.api.CurrencyAPIProvider;
+import me.vouchme.awakencurrencyApi.api.ICurrencyAPI;
 
 public class YourPlugin extends JavaPlugin {
     
