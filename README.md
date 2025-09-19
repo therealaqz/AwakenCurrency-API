@@ -19,7 +19,7 @@ A secure and efficient Crystal currency system API for Minecraft servers.
     <dependency>
         <groupId>com.github.therealaqz</groupId>
         <artifactId>AwakenCurrency-API</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.1</version> 
         <scope>provided</scope>
     </dependency>
 </dependencies>
