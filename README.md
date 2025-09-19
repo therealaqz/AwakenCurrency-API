@@ -114,13 +114,13 @@ softdepend: [AwakenCurrency]
 - Documentation: [https://github.com/therealaqz/AwakenCurrency-API]
 - Support: [https://discord.awakenmc.com]
 
-**Copyright (c) 2025 Aqz
-All rights reserved.
+`Copyright (c) 2025 Aqz
+All rights reserved.`
 
-This software and associated documentation files may not be copied,
+`This software and associated documentation files may not be copied,
 modified, merged, published, distributed, sublicensed, or used in any form
 without the express written permission of the copyright holder.**
-
+`
   
 ---
 *Developed by Aqz for the AwakenCurrency Network*
