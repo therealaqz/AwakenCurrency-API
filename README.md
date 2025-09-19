@@ -119,7 +119,7 @@ All rights reserved.`
 
 `This software and associated documentation files may not be copied,
 modified, merged, published, distributed, sublicensed, or used in any form
-without the express written permission of the copyright holder.**
+without the express written permission of the copyright holder.
 `
   
 ---
