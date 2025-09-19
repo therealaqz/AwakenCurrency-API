@@ -1,4 +1,0 @@
-name: awakencurrency-api
-version: '1.0.0'
-main: me.vouchme.awakencurrencyApi.AwakencurrencyApi
-api-version: '1.21'
