@@ -9,6 +9,34 @@ import java.util.UUID;
  * @version 1.0
  */
 public interface ICurrencyAPI {
+
+    /**
+     * Get the unique currency type identifier
+     * @return The currency type (e.g., "crystals", "coins", "gems")
+     */
+    String getCurrencyType();
+
+    /**
+     * Get the display name of this currency
+     * @return The formatted display name (e.g., "Crystals", "Gold Coins")
+     */
+    String getCurrencyDisplayName();
+
+    /**
+     * Get the plugin that provides this currency API
+     * @return The plugin name (e.g., "AwakenCurrency")
+     */
+    String getProviderPlugin();
+
+    /**
+     * Check if this API handles the specified currency type
+     * @param currencyType The currency type to check
+     * @return true if this API handles that currency type
+     */
+    default boolean handlesCurrency(String currencyType) {
+        return getCurrencyType().equalsIgnoreCase(currencyType);
+    }
+
     /**
      * Give crystals to a player
      * @param player The player to give crystals to
