@@ -1,7 +1,6 @@
 package me.vouchme.awakencurrencyApi.api;
 
 import org.bukkit.entity.Player;
-
 import java.util.UUID;
 
 /**
@@ -10,7 +9,6 @@ import java.util.UUID;
  * @version 1.0
  */
 public interface ICurrencyAPI {
-
     /**
      * Give crystals to a player
      * @param player The player to give crystals to
