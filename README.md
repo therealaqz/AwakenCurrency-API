@@ -32,7 +32,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.therealaqz:awakencurrency-api:1.0.0'
+    compileOnly 'com.github.therealaqz:awakencurrency-api:1.0.1'
 }
 ```
 
@@ -106,7 +106,6 @@ softdepend: [AwakenCurrency]
 
 - Java 21+
 - Paper/Spigot 1.21+
-- AwakenCurrency plugin installed
 
 ## Support
 
