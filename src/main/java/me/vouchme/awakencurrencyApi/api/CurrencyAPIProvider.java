@@ -85,6 +85,7 @@ public final class CurrencyAPIProvider {
         Plugin plugin = Bukkit.getPluginManager().getPlugin("AwakenCurrency");
         if (plugin != null && plugin.isEnabled()) {
             try {
+                // Try to get the API from the main plugin
                 Object apiInstance = plugin.getClass().getMethod("getAPI").invoke(plugin);
                 if (apiInstance instanceof ICurrencyAPI) {
                     ICurrencyAPI api = (ICurrencyAPI) apiInstance;
